@@ -38,4 +38,24 @@
 
   // lesson2-4
   $numD = -56;
+  if ($numD < 0) {
+    echo '負の数です';
+  } else if ($numD == 0) {
+    echo '0です';
+  } else if ($numD > 0) {
+    echo '正の数です';
+  }
+  echo "\n";
+
+  // lesson2-5
+  $age = 5;
+  if ($age >= 0 && $age <= 5) {
+    echo 'バスの料金は無料です';
+  } else if ($age >= 6 && $age <= 12) {
+    echo 'バスの料金は200円です'; 
+  } else if ($age >= 13 && $age <= 70) {
+    echo 'バスの料金は500円です';
+  } else if ($age > 70) {
+    echo 'バスの料金は無料です';
+  }
     ?>
