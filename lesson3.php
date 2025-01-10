@@ -7,7 +7,7 @@
 
   // lesson3-2
   $total = 0;
-  for ($i = 1; $i <= 100; $i++) {
+  for ($i = 1; $i <= 50; $i++) {
     if($i % 2 == 0){
       $total += $i;  
     }
